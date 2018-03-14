@@ -1,5 +1,4 @@
-angular.module('myApp')
-.config(function($StateProvider) {
+appModule.config(function($StateProvider) {
   $StateProvider.state('home', {
     url: '/',
     component: 'home',
