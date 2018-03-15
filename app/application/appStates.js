@@ -1,5 +1,5 @@
-appModule.config(function($StateProvider) {
-  $StateProvider.state('home', {
+myApp.config(function($stateProvider) {
+  $stateProvider.state('home', {
     url: '/',
     component: 'home',
     data: {
