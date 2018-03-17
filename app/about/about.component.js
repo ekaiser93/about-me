@@ -1,4 +1,4 @@
-myApp.component('about', {
+app.component('about', {
   controller: function () {
     const ctrl = this;
 

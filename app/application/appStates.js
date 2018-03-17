@@ -2,9 +2,9 @@ app.config(function($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/');
 
-    $stateProvider.state('Home', {
+    $stateProvider.state('home', {
         url: '/',
-        component: 'Home',
+        component: 'home',
         data: {
           pageName: 'Home',
           browerTitle: 'Home'
