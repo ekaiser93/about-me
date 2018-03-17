@@ -1,10 +1,2 @@
-// route provider
-var myApp = angular.module('myApp', ['ui.router']);
-
-myApp.config(function($urlRouterProvider) {
-
-    $urlRouterProvider.otherwise('/');
-
-});
-
-console.log('I am working');
+// declare app module
+var app = angular.module('app', ['ui.router']);

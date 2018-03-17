@@ -1,4 +1,4 @@
-app.component('home', {
+myApp.component('about', {
   controller: function () {
     const ctrl = this;
 
@@ -6,5 +6,5 @@ app.component('home', {
       console.log('I am also working');
     };
   },
-  templateUrl: 'home/home.html'
+  templateUrl: 'about/about.html'
 });

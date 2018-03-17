@@ -5,12 +5,12 @@
 <head>
 
     <!-- CSS (load bootstrap) -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 </head>
 
 <!-- apply our angular app to our site -->
-<body ng-app="myApp">
+<body ng-app="app">
 
 <!-- NAVIGATION -->
 <nav class="navbar navbar-inverse" role="navigation">
@@ -19,7 +19,7 @@
     </div>
     <ul class="nav navbar-nav">
         <li><a ui-sref="/">Home</a></li>
-        <li><a ui-sref="about">About</a></li>
+        <li><a ui-sref="/about">About</a></li>
     </ul>
 </nav>
 
@@ -31,8 +31,8 @@
 
 </div>
 <!-- JS (load angular, ui-router, and our custom js file) -->
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.js"></script>
+<script src="https://unpkg.com/@uirouter/angularjs@1.0.7/release/angular-ui-router.js"></script>
 <script src="application/app.js"></script>
 <script src="application/appStates.js"></script>
 
