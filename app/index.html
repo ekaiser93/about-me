@@ -11,23 +11,12 @@
 
 <!-- apply our angular app to our site -->
 <body ng-app="app">
-
-<!-- NAVIGATION -->
-<nav class="navbar navbar-inverse" role="navigation">
-    <div class="navbar-header">
-        <a class="navbar-brand" ui-sref="/">About Me</a>
-    </div>
-    <ul class="nav navbar-nav">
-        <li><a ui-sref="/">Home</a></li>
-        <li><a ui-sref="/about">About</a></li>
-    </ul>
-</nav>
-
+<navbar></navbar>
 <!-- MAIN CONTENT -->
 <div class="container">
 
     <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
-    <div ui-view></div>
+    <ui-view></ui-view>
 
 </div>
 <!-- JS (load angular, ui-router, and our custom js file) -->
@@ -35,7 +24,8 @@
 <script src="https://unpkg.com/@uirouter/angularjs@1.0.15/release/angular-ui-router.min.js"></script>
 <script src="application/app.js"></script>
 <script src="application/appStates.js"></script>
+<script src="components/navbar/navbar.component.js"></script>
 <script src="home/home.component.js"></script>
-<script src="about/about.component.js"></script>
+<script src="graph/graph.component.js"></script>
 </body>
 </html>

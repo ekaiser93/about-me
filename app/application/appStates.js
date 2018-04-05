@@ -11,12 +11,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
         }
     })
 
-    .state('about', {
-        url: '/about',
-        component: 'about',
+    .state('graph', {
+        url: '/graph',
+        component: 'graph',
         data: {
-          pageName: 'About',
-          browerTitle: 'About'
+          pageName: 'Graph',
+          browerTitle: 'Graph'
         }
     })
 
