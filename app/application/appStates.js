@@ -20,4 +20,13 @@ app.config(function($stateProvider, $urlRouterProvider) {
         }
     })
 
+    .state('badges', {
+        url: '/badges',
+        component: 'badges',
+        data: {
+          pageName: 'Badges',
+          browerTitle: 'My Badges'
+        }
+    })
+
 });
