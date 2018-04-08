@@ -27,3 +27,13 @@
 .navbar {
   border-radius:0;
 }
+
+.footer {
+  min-height: 1em;
+  bottom: 0;
+  background-color: #35AEEE;
+  right: 0;
+  left: 0;
+  color: white;
+  position: absolute;
+}

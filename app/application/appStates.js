@@ -29,4 +29,13 @@ app.config(function($stateProvider, $urlRouterProvider) {
         }
     })
 
+    .state('newclimb', {
+        url: '/newclimb',
+        component: 'newclimb',
+        data: {
+          pageName: 'Add a New Climb',
+          browerTitle: 'Add a New Climb'
+        }
+    })
+
 });
