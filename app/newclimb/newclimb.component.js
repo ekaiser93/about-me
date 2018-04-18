@@ -3,7 +3,10 @@ app.component('newclimb', {
     const ctrl = this;
 
     ctrl.$onInit = function() {
-      console.log('newclimb box is working');
+      ctrl.allclimbs = [
+        {completed: true, grade: 'v2'},
+        {completed: false, grade: 'v9'}
+        ];
     };
   },
   templateUrl: 'newclimb/newclimb.html'

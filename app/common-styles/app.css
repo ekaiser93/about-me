@@ -1,39 +1,19 @@
-/* app css stylesheet */
-
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
-}
-
-.menu:before {
-  content: "[";
-}
-
-.menu:after {
-  content: "]";
-}
-
-.menu > li {
-  display: inline;
-}
-
-.menu > li + li:before {
-  content: "|";
-  padding-right: 0.3em;
-}
 
 .navbar {
   border-radius:0;
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+  height: 80px;
+  position: fixed;
 }
 
-.footer {
-  min-height: 1em;
-  bottom: 0;
-  background-color: #35AEEE;
-  right: 0;
-  left: 0;
-  color: white;
-  position: absolute;
+.navbar li {
+  display: inline;
+}
+
+.large-icon {
+  width: auto;
+  height: 10px;
+  padding: 0 10px 0 10px;
 }
